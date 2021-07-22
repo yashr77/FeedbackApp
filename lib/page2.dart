@@ -11,7 +11,7 @@ import  'page6.dart';
 void main() => runApp(Second());
 var sliderValue = 0.0;
 class Second extends StatelessWidget {
-  // This widget is the root of your application.
+  
 
   @override
   Widget build(BuildContext context) {
@@ -24,8 +24,7 @@ class Second extends StatelessWidget {
           //primaryColor: Color(0xff662d8c),
         ),
         home:HomePage()
-      //home: MoneySlider(),
-      //home: StarFeedback(),
+    
     );
   }
 }
