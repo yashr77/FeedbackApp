@@ -1,5 +1,4 @@
 
-//import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -12,7 +11,7 @@ import 'page7.dart';
 void main() => runApp(MyApp());
 var sliderValue1 = 0.0;
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -24,8 +23,7 @@ class MyApp extends StatelessWidget {
         //primaryColor: Color(0xff662d8c),
       ),
        home:HomePage()
-      //home: MoneySlider(),
-      //home: StarFeedback(),
+      
     );
   }
 }
