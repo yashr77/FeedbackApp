@@ -10,20 +10,17 @@ import  'page6.dart';
 void main() => runApp(Fifth());
 var sliderValue4 = 0.0;
 class Fifth extends StatelessWidget {
-  // This widget is the root of your application.
-  @override
+   @override
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter Slider',
         theme: ThemeData(
           primaryColor: Color(0xff08f5d9),
-          //primaryColor: Color(0xff512ea8),
-          //primaryColor: Color(0xff662d8c),
+          
         ),
         home:HomePage()
-      //home: MoneySlider(),
-      //home: StarFeedback(),
+      
     );
   }
 }
